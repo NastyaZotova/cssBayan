@@ -173,7 +173,7 @@ h2 {
 }
 
 .image-content img {
-	max-width: 100%;
+	max-width: 40%;
 	transform: scale(0.6);
 	transition: all 1.5s;
 }
