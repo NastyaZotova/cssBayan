@@ -72,22 +72,20 @@ html {
 
 body {
 	background-color: rgba(241, 233, 222, 0.925);
-	font-size: 1em;
+	font-size: 1.5em;
 }
 
 @media (max-width: 820px) {
 	body {
-		font-size: 80%;
+		font-size: 85%;
 	}
 }
 
 @media (max-width: 320px) {
 	body {
-		font-size: 60%;
+		font-size: 75%;
 	}
 }
-
-
 
 .wrapper {
 	max-width: 1920px;
@@ -111,26 +109,32 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
-	padding: 1% 10%;
-}
-
-@media (max-width: 320px) {
-	.bayan-content {
-		padding-top: 5%;
-	}
+	padding: 3% 10%;
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: 700;
 	padding-bottom: 2%;
+}
+
+@media (max-width: 820px) {
+	h1 {
+		font-size: 95%;
+	}
+}
+
+@media (max-width: 320px) {
+	h1 {
+		font-size: 90%;
+	}
 }
 
 .bayan-item {
 	display: flex;
 	flex-direction: column;
 	border-top: 0.05em solid #5e0202;
-	padding: 1.5% 0;
+	padding-bottom: 0.65%;
 }
 
 .title_item:hover {
@@ -150,8 +154,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2em;
-	font-weight: 500;
+	font-weight: 400;
 	padding-bottom: 0.6%;
 	padding-top: 1.2%;
 }
@@ -164,8 +167,9 @@ h2 {
 }
 
 .image-content {
-	display: inline-block;
-	align-self: center;
+	display: flex;
+	justify-content: center;
+	width: 100%;
 	opacity: 0;
 	height: 0;
 	transition: all 1.5s;
@@ -173,7 +177,8 @@ h2 {
 }
 
 .image-content img {
-	max-width: 40%;
+	display: inline-block;
+	max-width: 30%;
 	transform: scale(0.6);
 	transition: all 1.5s;
 }
