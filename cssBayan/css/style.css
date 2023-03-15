@@ -163,6 +163,11 @@ h1 {
 	transition: 0.5s all;
 }
 
+.input-content:hover:after {
+	color: rgb(15, 121, 5);
+}
+
+
 .input-content:hover h2 {
 	color: rgb(15, 121, 5);
 }
